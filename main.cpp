@@ -1,16 +1,14 @@
 #include <iostream>
 #include "day1.h"
+#include "day2.h"
 
 int main() {
-    Solution s;
+    SolutionDay2 s;
 
-    std::cout << "=== Day 1 ===" << std::endl;
+    std::cout << "=== Day 2 ===" << std::endl;
 
     std::cout << "Part One Result: ";
-    s.part_one();
-
-    std::cout << "Part Two Result: ";
-    s.part_two();
+    std::cout << s.part_one() << std::endl;
 
     return 0;
 }
