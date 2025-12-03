@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -O2
 
-SRC = main.cpp day1.cpp day2.cpp
+SRC = main.cpp day1.cpp day2.cpp day3.cpp
 OBJ = $(SRC:.cpp=.o)
 TARGET = main
 

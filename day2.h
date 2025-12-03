@@ -1,6 +1,4 @@
 #pragma once
-#include <string>
-#include <fstream>
 
 class SolutionDay2 {
     public:
